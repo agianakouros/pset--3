@@ -10,7 +10,6 @@ public class Exercise9 {
         int quarter = 25;
         int dime = 10;
         int nickel = 5;
-        int penny = 1;
 
         double cheese = amount * 100;
 
@@ -28,7 +27,7 @@ public class Exercise9 {
         String var1 = String.format("%.0f", quarters);
         String var2 = String.format("%.0f", dimes);
         String var3 = String.format("%.0f", nickels);
-        String var4 = String.format("%.0f", pennies);   
+        String var4 = String.format("%.0f", pennies);
 
         System.out.println(" ");
         System.out.println("Quarters : " + var1);
