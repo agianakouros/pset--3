@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exercise5 {
@@ -31,11 +30,10 @@ public class Exercise5 {
 
         double finalgrade = (homeworkavg * .15) + (quizavg * .35) + (testavg * .5);
 
-        DecimalFormat commaFormat;
-        commaFormat = new DecimalFormat("#,###.##");
+        String strDouble = String.format("%.2f", finalgrade);
 
         System.out.println(" ");
-        System.out.println(commaFormat.format(finalgrade) + "%");
+        System.out.println((strDouble) + "%");
 
         in.close();
     }
