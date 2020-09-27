@@ -5,16 +5,16 @@ public class Exercise7 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Salary  :");
+        System.out.println("Salary  : ");
         double salary = in.nextDouble();
 
-        System.out.println("401(k)  :");
+        System.out.println("401(k)  : ");
         double fourohonekay = in.nextDouble();
 
-        System.out.println("Federal :");
+        System.out.println("Federal : ");
         double federal = in.nextDouble();
 
-        System.out.println("State   :");
+        System.out.println("State   : ");
         double state = in.nextDouble();
 
         double posttax = (salary * ((100 - fourohonekay) / 100));

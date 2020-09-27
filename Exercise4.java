@@ -5,10 +5,10 @@ public class Exercise4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Height :");
+        System.out.println("Height : ");
         double heightin = in.nextDouble();
 
-        System.out.println("Width :");
+        System.out.println("Width : ");
         double widthin = in.nextDouble();
 
         double heightcm = heightin * 2.54;
