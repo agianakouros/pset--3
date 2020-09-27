@@ -1,3 +1,5 @@
+package src;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -12,10 +14,11 @@ public class Exercise10 {
         System.out.print("Fahrenheit : ");
         double fahrenheit = in.nextDouble();
 
-        double kelvin = ((fahrenheit - 32) * (5/9)) + 273.15;
+        double kelvin = ((fahrenheit - 32) * (5/9f)) + 273.15;
         double celsius = kelvin - 273.15;
 
-        System.out.println("\nCelsius : " + decimalFormat.format(celsius));
-        System.out.print("Kelvin : " + decimalFormat.format(kelvin));
+        System.out.println(" ");
+        System.out.println("Celsius    : " + decimalFormat.format(celsius));
+        System.out.print("Kelvin     : " + decimalFormat.format(kelvin));
     }
 }
