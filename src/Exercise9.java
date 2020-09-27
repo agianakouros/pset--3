@@ -31,7 +31,7 @@ public class Exercise9 {
 
         System.out.println(" ");
         System.out.println("Quarters : " + var1);
-        System.out.println("Dimes   : " + var2);
+        System.out.println("Dimes    : " + var2);
         System.out.println("Nickels  : " + var3);
         System.out.println("Pennies  : " + var4);
 
