@@ -4,7 +4,7 @@ public class Exercise9 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Amount : ");
+        System.out.print("Amount : ");
         double amount = in.nextDouble();
 
         int quarter = 25;
