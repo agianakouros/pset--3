@@ -14,13 +14,13 @@ public class Exercise4 {
         double heightcm = heightin * 2.54;
         double widthcm = widthin * 2.54;
 
-        double perimiter = heightcm + heightcm + widthcm + widthcm;
+        double perimeter = heightcm + heightcm + widthcm + widthcm;
 
         DecimalFormat commaFormat;
         commaFormat = new DecimalFormat("#,###.##");
 
         System.out.println(" ");
-        System.out.println(commaFormat.format(perimiter) + " centimeters.");
+        System.out.println(commaFormat.format(perimeter) + " centimeters.");
 
         in.close();
     }
